@@ -31,7 +31,6 @@
 > ### OBS -> Outros Registradores:  
 > **HI (32 bits)**: Recebe os resultados (por exemplo de multiplicações)                          
 > **LO (32 bits)**: Recebe os restos (por exemplo de divisões)
-> **PC (32 bits)**: program counter
 
 # Operações Aritméticas:
 ## Soma: 
