@@ -3,9 +3,9 @@
 - Acesso usando o prefixo "$" seguido do número do registrador. **EX: $3**
 
 ### Alguns registradores tem uso predeterminado:
-- $0 deve conter sempre o valor 0
-- $31 usado para chamada de subrotina
-- $29 apontador da pilha
+- **$0** deve conter sempre o valor 0
+- **$31** usado para chamada de subrotina
+- **$29** apontador da pilha
 
 ### Uso livre:
 - **$8 a $15** -> Variáveis Temporárias
