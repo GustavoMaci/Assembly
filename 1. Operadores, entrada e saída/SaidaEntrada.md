@@ -3,7 +3,7 @@
 
 # Serviços de SO:
 ### 1. O Código do Serviço deve ser sempre colocado no registrador **$2** (ou, usando o seu apelido,v0).
-### 2. O programa do usuário, depois de colocar o código de serviço em **$2**, faz a chamada ao SO usando a instrução especial: **syscall**
+### 2. O programa do usuário, depois de colocar o código de serviço em **$2**, faz a chamada ao SO usando a instrução especial: **syscall.**
 
 
 # Alguns Serviços:
