@@ -28,7 +28,7 @@
 | `$fp`          | `$30`          | Frame Pointer                   | Sim                         |
 | `$ra`          | `$31`          | Endereço de Retorno             | Sim                         |
 
-> ### OBS -> Outros Registradores:  
+> ### 📌 Nota:
 > **HI (32 bits)**: Recebe os resultados (por exemplo de multiplicações)                          
 > **LO (32 bits)**: Recebe os restos (por exemplo de divisões)
 
