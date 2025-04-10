@@ -1,4 +1,4 @@
-# Operações Aritméticas:
+# Operações Lógicas: 🧠
 ## AND bit a bit (bitwise): 
 ### and:
 **▶ Sintaxe:**  
