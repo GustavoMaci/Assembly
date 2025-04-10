@@ -1,4 +1,4 @@
-# Banco de Registradores de Uso Geral:
+# Banco de Registradores de Uso Geral: 💻
 - 32 registradores de 32 bits
 - Acesso usando o prefixo "$" seguido do número do registrador. **EX: $3**
 
@@ -32,7 +32,7 @@
 > **HI (32 bits)**: Recebe os resultados (por exemplo de multiplicações)                          
 > **LO (32 bits)**: Recebe os restos (por exemplo de divisões)
 
-# Operações Aritméticas:
+# Operações Aritméticas: ➕
 ## Soma: 
 ### add:
 **▶ Sintaxe:**  
