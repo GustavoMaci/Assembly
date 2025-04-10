@@ -15,7 +15,7 @@
 | 11                         | Imprimir um caractere    | `$4`           |                                       |
 | 12                         | Lê um caractere          |                | `$2` contém o caractere lido          |
 
-> 📌 **Nota:**  
+> ## 📌 **Nota:**  
 > Para fazer comentário no código, basta usar: # "seu comentário". `EX: addi $t0, $zero, 76  # Em $t0 guardamos o valor 76`
 
 # Exemplo
