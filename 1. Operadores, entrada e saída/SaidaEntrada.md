@@ -1,4 +1,4 @@
-# Introdução:
+# Introdução: ✍
 ### Para interação com dispositivos de entrada e saída, o usuário precisa solicitar ao Sistema Operacional que realize uma operação.
 
 # Serviços de SO:
