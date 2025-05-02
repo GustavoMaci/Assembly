@@ -29,8 +29,8 @@
 | `$ra`          | `$31`          | Endereço de Retorno             | Sim                         |
 
 > ## 📌 Nota:
-> **HI (32 bits)**: Recebe os resultados (por exemplo de multiplicações)                          
-> **LO (32 bits)**: Recebe os restos (por exemplo de divisões)
+> **HI (32 bits)**: Recebe os restos (multiplicações/divisões)                          
+> **LO (32 bits)**: Recebe os resultados (multiplicações/divisões)
 
 # Operações Aritméticas: ➕
 ## Soma: 
