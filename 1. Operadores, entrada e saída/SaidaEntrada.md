@@ -39,3 +39,10 @@ soma:
     addi $2, $0, 10 
     syscall         # Encerra a execução
 ```
+# Quebra de Linha no Mars Mips
+### Para adicionar a quebra de linha após cada número, você precisa imprimir o caractere de nova linha ('\n', código ASCII 10) logo após imprimir cada dígito.
+### Você pode fazer isso usando o syscall 11 (que imprime um caractere) e colocando o valor ASCII 10 em $a0 ($4).
+
+    addi $4, $0, 10     # $4 = '\n'
+    addi $2, $0, 11     # syscall 11 = print char
+    syscall
