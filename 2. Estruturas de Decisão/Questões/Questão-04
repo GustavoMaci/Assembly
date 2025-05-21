@@ -1,0 +1,37 @@
+main:	addi $2, $0, 5
+	syscall
+	add $8, $0, $2 # Recebe o valor x
+	
+	addi $2, $0, 5
+	syscall
+	add $9, $0, $2 # Recebe o valor y
+	
+	add $4, $0, $8
+	addi $2, $0, 1
+	syscall	# Printa o x
+	
+	beq $8, $9, equal # Se x == y => equal
+	bgt $8, $9, maior # Se x > y => maior
+	blt $8, $9, menor # Se x < y => menor
+
+equal:	addi $4, $0, '='
+	j print
+
+maior:	addi $4, $0, '>'
+	j print
+
+menor:	addi $4, $0, '<'
+	j print
+	
+print:	addi $2, $0, 11
+	syscall # Printa o simbolo correspondente
+	
+	add $4, $0, $9
+	addi $2, $0, 1
+	syscall # Printa o y
+	
+	addi $2, $0, 10
+	syscall # Encerra o programa
+	
+	
+	
